@@ -19,14 +19,7 @@ public class Atv4 {
             bufferedReader.close();
 
             System.out.println("Numero de linhas é igual a: " + lineCount);
-
-            // FileWriter fileWriter = new FileWriter("meuarquivo.txt");
-            // BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
-
-            // bufferedWriter.newLine();
-            //bufferedWriter.write("Adicionando texto ao arquivo 'meuarquivo.txt'");
-
-            //bufferedWriter.close();
+            
         } catch (IOException e) {
             System.out.println("Erro ao ler o arquivo: " + e.getMessage());
         }
